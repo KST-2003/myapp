@@ -1,0 +1,23 @@
+/* External Style*/
+body{
+    color:orange;
+}
+h1{
+    color:black;
+}
+h1 b{
+    color:pink;
+}
+div{
+    color:grey;
+}
+
+p{
+    color:blue;
+}
+div > p{
+    color: green;
+}
+ul{
+    color: greenyellow;
+}

@@ -1,0 +1,29 @@
+/*External Style*/
+
+
+
+html{
+    background-color: darkgray;
+}
+body{
+    color:whitesmoke;
+}
+h2+p{
+    text-align:center;
+    font-size:large;
+    color:whitesmoke;
+}
+table+p{
+    text-align:center;
+    font-size:xx-large;
+    color:whitesmoke;
+}
+th{
+    font-size:xx-large;
+    color:whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a{
+    color:orangered;
+    font-size:x-large;
+}

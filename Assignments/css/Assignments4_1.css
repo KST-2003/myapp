@@ -1,0 +1,238 @@
+*{
+    margin:0px;
+}
+.col1{
+    width:13%;
+    height:48px;
+    border:0px solid;
+    float:left;
+    text-align: center;
+    line-height: 40px;
+}
+nav{
+    width:100%;
+    height:50px;
+    background-color: aqua;
+}
+.col2{
+    float:left;
+    border:0px solid;
+    width:80%;
+    height:47px;
+}
+ul li{
+    list-style-type: none;
+    float:left;
+    padding:15px;
+    border:0px solid;
+    position: relative;
+}
+ul li:hover{
+    background-color: aliceblue;
+    color:red;
+}
+.submenu{
+    display:none;
+    width:1280px;
+    height:500px;
+    position:absolute;
+    border:0px solid;
+    margin-left: -228px;
+    margin-top: 15px;
+    background-color: brown;
+}
+ul li:hover .submenu{
+    display:block;
+}
+.colA{
+    width:49%;
+    height:100%;
+    border:0px solid ;
+    background-color: rgb(38, 216, 86);
+    float:left;
+}
+.colB{
+    width:635px;
+    height:100%;
+    border:0px solid;
+    float:left;
+    padding-left: 15px;
+    background-color: aliceblue;
+}
+.cola,.colb{
+    width:44%;
+    height:100%;
+    border:0px solid;
+    float:left;
+    line-height: 40px;
+    margin-left: 30px;
+    color:black;
+}
+#cola,#colb{
+    width:44%;
+    height:100%;
+    border:0px solid;
+    float:left;
+    line-height: 40px;
+    margin-left: 30px;
+    color:black;
+}
+h3{
+    color:red;
+}
+.news{
+    width:100%;
+    height:650px;
+    border:0px solid rgb(225, 24, 182);
+    background-color: blue;
+    
+}
+.row1{
+    width:100%;
+    height:93%;
+    border:0px solid rgb(38, 6, 97);
+    
+    display:flex;
+    justify-content: center;
+}
+.row2{
+    width:100%;
+    height: 500px;
+    border:0px solid rgb(183, 20, 181);
+    
+    display:flex ;
+    justify-content: center;
+    
+    
+}
+.COL1,.COL2,.COL3{
+    width:30%;
+    height:100%;
+    border:0px solid;
+    margin-left: 20px;
+    
+
+}
+.COL1A,.COL2A,.COL3A{
+    width:100%;
+    height: 40%;
+    border:0px solid red;
+    display:inline-block;
+    
+}
+.title1{
+    width:30%;
+    height:40px;
+    border:0px solid green;
+    font-size: xx-large;
+    color:white;
+    margin-left: 20px;
+}
+.covid{
+    width:100%;
+    height:570px;
+    border:0px solid rgb(12, 9, 186);
+    margin-top: 50px;
+    
+
+}
+.title2{
+    width:30%;
+    height:40px;
+    border:0px solid rgb(56, 4, 86);
+    font-size: xx-large;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+.COLX,.COLY,.COLZ{
+    width:30%;
+    height:100%;
+    border:0px solid;
+    margin-left: 20px;
+    
+}
+.covidtext{
+    width:100%;
+    height:200px;
+    border:0px solid;
+}
+.end{
+    width:100%;
+    height:350px;
+    border:0px solid orchid;
+}
+.title3{
+    width:33%;
+    height:40px;
+    border:0px solid;
+    font-size:xx-large ;
+    color:rgb(24, 11, 207);
+    margin-left: 20px;
+}
+.box0{
+    width:100%;
+    height:300px;
+    border:0px solid;
+    display:flex;
+    justify-content: center;
+    
+    
+}
+.box1{
+    width:40%;
+    height:200px;
+    border:2px solid rgb(30, 16, 192);
+    margin-right: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   text-align: center;
+    
+}
+.a{
+    font-size: 50px;
+    border:0px solid greenyellow;
+    width:100%;
+    height:30px;
+    margin-top: 20px;
+    padding:15px;
+    line-height: 30px;
+    
+}
+.text{
+    width:100%;
+    height:40px;
+    margin-top:-20px;
+}
+.final1{
+    width:60px;
+    height:40px;
+    border:2px solid;
+    text-align: center;
+    line-height: 40px;
+    margin-top: -10px;
+    background-color: blue;
+    color:white;
+
+}
+.final2{
+    width:200px;
+    height:40px;
+    border:2px solid;
+    text-align: center;
+    line-height:40px;
+    margin-top: -10px;
+    background-color: blue;
+    color:white;
+}
+.final1:hover{
+    background-color: white;
+    border:2px solid blue;
+    color:blue;
+}
+.final2:hover{
+    background-color: white;
+    border:2px solid blue;
+    color:blue;
+}
+
