@@ -1,0 +1,69 @@
+body{
+    background-image: url(../../image/Silder/360_F_505841526_ksSXmH8mHWEiuNFmrHIYlnZtQcIe6TK9.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:2000px;
+    width:100%;
+    
+}
+nav{
+    color:rgb(116, 74, 243);
+}
+.row{
+    border:0px solid red;
+    margin-top: 20px;
+}
+.link{
+    width:300px;
+    height:30px;
+    background-color: coral;
+    margin-left: 500px;
+    text-align: center;
+    
+}
+a{
+    color:aliceblue;
+    text-decoration: none;
+    line-height:30px;
+}
+.box1{
+    margin-top: -20px;
+    border:0px solid;
+    width:fit-content;
+}
+
+.box2{
+    border:0px solid;
+    margin-top: -3px;
+    margin-left: 150px;
+    height:100px;
+    width:1000px;
+}
+.box1{
+    position: relative;
+    left:900px;
+}
+footer{
+    background-image: url(../../image/Beach/skin\ color.png);
+}
+.footer-end{
+    background-color: rgb(45, 38, 38);
+    height:100px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.footer-end p{
+    color:white;
+    font-size: large;
+
+}
+section h2{
+    color:coral;
+    margin-top: 5px;
+    margin-left: 550px;
+}
+section>h5{
+    margin-left:500px;
+}
