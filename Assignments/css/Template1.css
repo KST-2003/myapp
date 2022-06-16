@@ -1,0 +1,337 @@
+
+.carousel-indicators button{
+    margin-top: 10px;
+    background-color: rgb(0, 0, 0) !important;
+}
+#myreview{
+    border:0px solid red;
+    height:400px;
+}
+.shinobi{
+    border:0px solid rgb(0, 255, 30);
+   display: flex;
+   flex-wrap: wrap;
+}
+.navbar.affix.bg-light {
+    background: #fff !important;
+}
+.service{
+    width:100%;
+    height:100px;
+    transform:skewY(-3deg);
+    background-color: rgb(255, 255, 255);
+    margin-top:-60px;
+}
+.service1{
+    border:0px solid rgb(37, 215, 61);
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+.circle-wrap {
+    margin: 150px auto;
+    width: 150px;
+    height: 150px;
+    background: #fefcff;
+    border-radius: 50%;
+    border: 1px solid #cdcbd0;
+  }
+  
+  .circle-wrap .circle .mask,
+  .circle-wrap .circle .fill {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  .circle-wrap .circle .mask {
+    clip: rect(0px, 150px, 150px, 75px);
+  }
+  
+  .circle-wrap .inside-circle {
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    background: #d2eaf1;
+    line-height: 120px;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 14px;
+    color: #1e51dc;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 2em;
+  }
+  .second,.first,.third,.fourth,.fifth{
+    position: relative;
+    left:100px;
+    top:-100px;
+}
+  
+  /* color animation */
+  
+  /* 3rd progress bar */
+  .first .mask .fill {
+    clip: rect(0px, 75px, 150px, 0px);
+    background:radial-gradient(red,orange)
+  }
+  
+  .first .mask.full,
+  .first .circle .fill {
+    animation: one ease-in-out 3s;
+    transform: rotate(90deg);
+    
+  }
+  
+  @keyframes one{
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(90deg);
+    }
+  }
+
+  .second .mask .fill {
+    clip: rect(0px, 75px, 150px, 0px);
+    background:radial-gradient(yellow 50%,orange 70%)
+  }
+
+  .second .mask.full,
+  .second .circle .fill {
+    animation: two ease-in-out 3s;
+    transform: rotate(135deg);
+  }
+
+ @keyframes two{
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(135deg);
+    }
+  } 
+
+
+
+  .third .mask .fill {
+    clip: rect(0px, 75px, 150px, 0px);
+    background:radial-gradient(rgb(240, 9, 9) 50% , rgb(0, 0, 0) 70%) 
+  }
+
+  .third .mask.full,
+  .third .circle .fill {
+    animation: three ease-in-out 3s;
+    transform: rotate(45deg);
+  }
+
+ @keyframes three{
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(45deg);
+    }
+  } 
+
+  .fourth .mask .fill {
+    clip: rect(0px, 75px, 150px, 0px);
+    background:radial-gradient(rgb(0, 255, 0) 60%, yellow 80%)
+  }
+
+  .fourth .mask.full,
+  .fourth .circle .fill {
+    animation: four ease-in-out 3s;
+    transform: rotate(144deg);
+  }
+
+ @keyframes four{
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(144deg);
+    }
+  } 
+
+  .fifth .mask .fill {
+    clip: rect(0px, 75px, 150px, 0px);
+    background:radial-gradient(green 80%, red 10%)
+  } 
+
+  .fifth .mask.full,
+  .fifth .circle .fill {
+    animation: five ease-in-out 3s;
+    transform: rotate(175deg);
+  }
+
+ @keyframes five{
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(175deg);
+    }
+  } 
+
+a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+
+  
+
+.banner2{
+    width:100%;
+    height:500px;
+    border:0px solid red;
+    background-image: url(../../image/Silder/MainPhotoFifth.jpeg);
+    background-size: 100% 100%;
+   
+   
+}
+.cover2{
+    width:100%;
+    height:500px;
+    background-color: rgb(94, 74, 225,0.5);
+    
+    position:relative;
+}
+.caption1{
+    width:300px;
+    height:200px;
+    border:0px solid red;
+    position:absolute; 
+    right:100px;
+    top:200px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
+}
+.caption1 h1{
+    position: relative;
+    top:-3px;
+    color:white
+}
+b{
+    position: relative;
+    top:-6px;
+}
+.banner3{
+    width:100%;
+    height:350px;
+    transform:skewY(-3deg);
+    background-image: url(../../image/KAKASHI/Kakashi\ Hatake\ Minimal\ 4K\ 8K\ Wallpaper\,\ HD\ Minimalist\ 4K\ Wallpapers\,\ Images\,\ Photos\ and\ Background\ -\ Wallpapers\ Den.jpg);
+    background-size: 100% 100%;
+    margin-top: 30px;
+}
+.cover3{
+    width:100%;
+    height:100%;
+    background-color: rgb(94, 74, 225,0.8);
+}
+.skill{
+    border:0px solid red;
+    margin-top: 50px;
+    text-align: center;
+    margin-right: 350px;
+    margin-left: 350px;
+}
+.portfolio{
+    border:0px solid green;
+    margin-top: -150px;
+    margin-right: 350px;
+    margin-left: 350px;
+    text-align: center;
+}
+.flex{
+    border:0px solid red;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.review{
+    border:0px solid red;
+    text-align: center;
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-top: 100px;
+}
+.boxz{
+    border:0px solid red;
+    margin-right: 0px;
+    margin-bottom: 200px;
+   
+}
+.profile1{
+    width:60px;
+    height: 60px;
+    border:0px solid red;
+    border-radius: 50%;
+    background-image: url(../../image/KAKASHI/temarisenpai.jpg);
+   background-size: 100% 100%;
+}
+.profile2{
+    width:60px;
+    height: 60px;
+    border:0px solid red;
+    border-radius: 50%;
+    background-image: url(../../image/KAKASHI/naruto.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.profile3{
+    width:60px;
+    height: 60px;
+    border:0px solid red;
+    border-radius: 50%;
+    background-image: url(../../image/KAKASHI/minato.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+a{
+    font-weight: bolder;
+    font-size: large;
+}
+.footer{
+    width:100%;
+    height:330px;
+    margin-top: 50px;
+    background-color:rgb(94, 74, 225) ;
+    padding-top: 50px;
+}
+.bold{
+    font-size: large;
+    font-weight: 600;
+}
+span{
+   
+   
+    position: relative;
+}
+
+.line::before{
+    content:"";
+    width:1100px;
+    height:1px;
+    background: rgb(255, 255, 255);
+    position:absolute;
+    top:20px;
+    left:60px; 
+}
+.final{
+    margin-top: 40px;
+}
+
+
+
+
+
+
